@@ -49,13 +49,13 @@ To run the project locally, you'll need:
 2. **Download dataset through the terminal:**
 
    ```bash
-   kaggle datasets download -d adilshamim8/cost-of-international-education
+   kaggle datasets download -d shree1992/housedata
 
 3. **Extract the dataset zip:**
 
    ```bash
-   with zipfile.ZipFile("cost-of-international-education.zip", "r") as zip_ref:
-     zip_ref.extractall("cost-of-international-education")
+   with zipfile.ZipFile("housedata.zip", "r") as zip_ref:
+      zip_ref.extractall("housedata")
 
 4. **Run the code:**
 
