@@ -4,14 +4,20 @@
 
 ## ℹ️ About the Project
 
-**House Price Prediction** is project that analyzes:
+**House Price Prediction** is project that:
 
-- Tuition Fees Distribution
-- Average Tuition Fees per Country
-- Living Cost vs Tuition
-- Tuition Fees Distribution by Program
-- Correlation Between Cost Components
-- Global Map of Annual Study Abroad
+- Analyzes Housing Price
+- Analyzes House Features Correlation
+- Predicts House Price and Evaluates Error Metrics (R2 Score and RMSE), using:
+   - Linear SVR (Support Vector Regression)
+   - SVR
+   - Ridge
+   - Bayesian Ridge
+   - Elastic Net
+   - Lasso
+   - Linear Regression
+   - XGBoost Regressor
+   - Random Forest Regressor
 
 ---
 
@@ -20,12 +26,12 @@
 - [Python](https://www.python.org/) — primary programming language
 - [PyCharm](https://www.jetbrains.com/pycharm/) — IDE
 
+- [Scikit-learn](https://scikit-learn.org/stable/) — machine learning
+- [XGBoost](https://xgboost.readthedocs.io/en/stable/) — xgboost method
 - [Pandas](https://pandas.pydata.org/) — data manipulation
 - [NumPy](https://numpy.org/) — number operations
 - [Matplotlib](https://matplotlib.org/) — plotting
 - [Seaborn](https://seaborn.pydata.org/) — data visualization
-- [SciPy](https://scipy.org/) — linear regression
-- [GeoPandas](https://geopandas.org/en/stable/) — map data
 
 ---
 
@@ -44,7 +50,7 @@ To run the project locally, you'll need:
 1. **Install the necessary libraries:**
 
    ```bash
-   pip install pandas numpy matplotlib seaborn scipy geopandas kaggle
+   pip install scikit-learn xgboost pandas numpy matplotlib seaborn kaggle
 
 2. **Download dataset through the terminal:**
 
@@ -69,8 +75,6 @@ To run the project locally, you'll need:
 ![Alt text](Figure_2.png?raw=true "Title")
 ![Alt text](Figure_3.png?raw=true "Title")
 ![Alt text](Figure_4.png?raw=true "Title")
-![Alt text](Figure_5.png?raw=true "Title")
-![Alt text](Figure_6.png?raw=true "Title")
 
 ## 📃 License
 
